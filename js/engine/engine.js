@@ -1,0 +1,1 @@
+var DeviceRuntimeCore={WidgetFactory:function(){},HmDomApi:function(){},HmLogger:{getLogger:function(){}},Page:function(a){return a},WatchFace:function(a){return a}},__$$hmAppManager$$__={currentApp:{current:{module:""},app:{__globals__:{}}}},Logger={getLogger:function(){return{}}};

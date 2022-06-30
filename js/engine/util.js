@@ -1,0 +1,1 @@
+function inShowLevel(b,a){var c=!1;a||(a=hmUI.show_level.ONLY_NORMAL);if(a==b||0!=(b&a))c=!0;return c};

@@ -1,0 +1,1 @@
+function exportImg(){var b=document.getElementById("canvas").toDataURL(),a=document.createElement("a"),c=new MouseEvent("click");a.download="\u9884\u89c8\u56fe";a.href=b;a.dispatchEvent(c)};

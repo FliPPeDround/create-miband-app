@@ -1,0 +1,1 @@
+var timer={createTimer:function(a,b,c,d){a={};b=setInterval(function(){c(d)},b);a.timer=b;return a},stopTimer:function(a){clearInterval(a.timer)}};
