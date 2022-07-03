@@ -2,11 +2,9 @@ import { WatchFace } from './face/index.js'
 import { MiniApp } from './app/index.js'
 
 function createApp () {
-  const App = __$$hmAppManager$$__.currentApp
-  const global = App.current
+  const App = __$$hmAppManager$$__.currentApp.current
   const logger = Logger.getLogger('watchface')
-
-  global.module = DeviceRuntimeCore.WatchFace({
+  App.module = DeviceRuntimeCore.WatchFace({
     init_view () {
       new WatchFace()
       new MiniApp()

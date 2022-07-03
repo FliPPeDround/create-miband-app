@@ -7,10 +7,10 @@ import { createStandbyTime } from './standbyTime.js'
 
 export class WatchFace {
   constructor () {
+    createWeek()
     createBackground()
     createTime()
     createData()
-    createWeek()
     createStandbyBackground()
     createStandbyTime()
   }

@@ -11,7 +11,7 @@ function initApp () {
     },
     onDestory (options) {
     },
-    onError (error) {
+    onError (_error) {
     },
     onPageNotFound (obj) {
     },

@@ -1,20 +1,23 @@
 {
-  "name": "html",
+  "name": "miband-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@zeppos/device-types": "^1.0.0",
-    "eslint": "^8.0.1",
+    "eslint": "^8.19.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-n": "^15.0.0",
-    "eslint-plugin-promise": "^6.0.0"
+    "eslint-plugin-promise": "^6.0.0",
+    "vite": "^2.9.13"
   }
 }
