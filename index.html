@@ -24,7 +24,7 @@
 	
 	<script src="simulator/js/tool/ouput_sample_wf.js"></script>
 	
-	<script src="watchface/watchface/index.js" type="module"></script>
+	<script src="src/watchface/index.js" type="module"></script>
 
 	<style>
 		html,
@@ -54,16 +54,17 @@
 <body>
 	<div class="content">
 		<div class="showBox">
-			<div class="panel panel-primary">
-				<!-- Default panel contents -->
-				<div class="panel-heading">渲染面板</div>
+			<div class="panel panel-info">
+				<div class="panel-heading">
+					渲染面板
+				</div>
 				<div class="panel-body" style="height:490px;padding: 0px;overflow: hidden;">
-				<canvas id="canvas" width="192" height="490" style="position: absolute;" />
+					<canvas id="canvas" width="192" height="490" style="position: absolute;" />
 				</div>
 			</div>
 		</div>
 		<div class="setBox">
-			<div class="panel panel-primary">
+			<div class="panel panel-info">
 				<!-- Default panel contents -->
 				<div class="panel-heading">控制面板</div>
 				<div class="panel-body" style="height:490px;padding:10px;">
